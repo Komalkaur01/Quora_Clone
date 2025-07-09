@@ -1,4 +1,4 @@
-# 🔥 Askify – Q&A and Post Sharing Platform
+# 🔥 Quora Clone – Q&A and Post Sharing Platform
 
 A modern, full-featured web app where users can ask questions, post updates with images, like/comment/share, and explore content across different topics like **Technology**, **Science**, **Business**, and **Health**.
 
@@ -95,13 +95,6 @@ npm start
 
 ---
 
-## 📸 Screenshots
-
-| Home Page | Question Feed | Post Feed |
-|-----------|----------------|------------|
-| _Add screenshots in a `/screenshots` folder_ | _Add here_ | _Add here_ |
-
----
 
 ## 🧠 Future Enhancements
 
