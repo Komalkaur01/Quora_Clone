@@ -33,7 +33,7 @@ src/
 │   └── firebase.js
 ├── App.jsx
 └── index.js
-```
+
 
 
 
@@ -116,11 +116,11 @@ npm start
 
 Contributions are welcome! Fork the repo and open a PR.
 
-```bash
+bash
 git checkout -b feature/your-feature
 git commit -m "Add your feature"
 git push origin feature/your-feature
-```
+
 
 
 
