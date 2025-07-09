@@ -1,8 +1,8 @@
-# 🔥 Askify – Q&A and Post Sharing Platform
+# 🔥 Quora Clone– Q&A and Post Sharing Platform
 
 A modern, full-featured web app where users can ask questions, post updates with images, like/comment/share, and explore content across different topics like **Technology**, **Science**, **Business**, and **Health**.
 
----
+
 
 ## 🚀 Features
 
@@ -15,11 +15,11 @@ A modern, full-featured web app where users can ask questions, post updates with
 - 🕒 **Relative Timestamps** (e.g., “2 hours ago”)
 - 🔐 **Real-time Firestore Integration**
 
----
+
 
 ## 📁 Folder Structure
 
-```
+
 src/
 ├── components/
 │   ├── Header.jsx
@@ -35,7 +35,7 @@ src/
 └── index.js
 ```
 
----
+
 
 ## 🔧 Tech Stack
 
@@ -95,7 +95,7 @@ export const auth = getAuth(app);
 npm start
 ```
 
----
+
 
 ## 📸 Screenshots
 
@@ -103,7 +103,7 @@ npm start
 |-----------|----------------|------------|
 | _Add screenshots in a `/screenshots` folder_ | _Add here_ | _Add here_ |
 
----
+
 
 ## 🧠 Future Enhancements
 
@@ -112,7 +112,7 @@ npm start
 - 📱 Mobile-first design & responsiveness
 - ⚙️ Admin Panel and Content Moderation
 
----
+
 
 ## 🙌 Contributing
 
@@ -124,7 +124,7 @@ git commit -m "Add your feature"
 git push origin feature/your-feature
 ```
 
----
+
 
 ## 📄 License
 
