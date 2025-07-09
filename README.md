@@ -39,31 +39,29 @@ src/
 
 ## 🔧 Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS
-- **Backend/Database**: Firebase Firestore
-- **Authentication**: Firebase Auth
-- **Icons**: Lucide Icons
-- **Notifications**: react-hot-toast
-- **Date Formatting**: date-fns
+- Frontend: React.js, Tailwind CSS
+- Backend/Database: Firebase Firestore
+- Authentication: Firebase Auth
+- Icons: Lucide Icons
+- Notifications: react-hot-toast
+- Date Formatting: date-fns
 
----
 
 ## 🛠 Setup Instructions
 
-1. **Clone the repository**
+1. Clone the repository
 
-```bash
+bash
 git clone https://github.com/Komalkaur01/Quora_Clone.git
 cd askify
-```
 
-2. **Install dependencies**
 
-```bash
+2. Install dependencies
+
+bash
 npm install
-```
 
-3. **Firebase Setup**
+3. Firebase Setup
 
 - Go to [Firebase Console](https://console.firebase.google.com/)
 - Create a new project
@@ -71,7 +69,7 @@ npm install
 - Create a **Firestore Database**
 - Replace Firebase config inside `firebase/firebase.js`:
 
-```js
+js
 // firebase/firebase.js
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
@@ -87,13 +85,13 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 export const auth = getAuth(app);
-```
+
 
 4. **Start the application**
 
-```bash
+bash
 npm start
-```
+
 
 
 
