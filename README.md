@@ -1,8 +1,8 @@
-# 🔥 Quora Clone– Q&A and Post Sharing Platform
+# 🔥 Askify – Q&A and Post Sharing Platform
 
 A modern, full-featured web app where users can ask questions, post updates with images, like/comment/share, and explore content across different topics like **Technology**, **Science**, **Business**, and **Health**.
 
-
+---
 
 ## 🚀 Features
 
@@ -15,11 +15,11 @@ A modern, full-featured web app where users can ask questions, post updates with
 - 🕒 **Relative Timestamps** (e.g., “2 hours ago”)
 - 🔐 **Real-time Firestore Integration**
 
-
+---
 
 ## 📁 Folder Structure
 
-
+```
 src/
 ├── components/
 │   ├── Header.jsx
@@ -33,35 +33,35 @@ src/
 │   └── firebase.js
 ├── App.jsx
 └── index.js
-
-
+```
 
 
 ## 🔧 Tech Stack
 
-- Frontend: React.js, Tailwind CSS
-- Backend/Database: Firebase Firestore
-- Authentication: Firebase Auth
-- Icons: Lucide Icons
-- Notifications: react-hot-toast
-- Date Formatting: date-fns
+- **Frontend**: React.js, Tailwind CSS
+- **Backend/Database**: Firebase Firestore
+- **Authentication**: Firebase Auth
+- **Icons**: Lucide Icons
+- **Notifications**: react-hot-toast
+- **Date Formatting**: date-fns
 
 
 ## 🛠 Setup Instructions
 
-1. Clone the repository
+1. **Clone the repository**
 
-bash
-git clone https://github.com/Komalkaur01/Quora_Clone.git
+```bash
+git clone https://github.com/yourusername/askify.git
 cd askify
+```
 
+2. **Install dependencies**
 
-2. Install dependencies
-
-bash
+```bash
 npm install
+```
 
-3. Firebase Setup
+3. **Firebase Setup**
 
 - Go to [Firebase Console](https://console.firebase.google.com/)
 - Create a new project
@@ -69,7 +69,7 @@ npm install
 - Create a **Firestore Database**
 - Replace Firebase config inside `firebase/firebase.js`:
 
-js
+```js
 // firebase/firebase.js
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
@@ -85,15 +85,15 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 export const auth = getAuth(app);
-
+```
 
 4. **Start the application**
 
-bash
+```bash
 npm start
+```
 
-
-
+---
 
 ## 📸 Screenshots
 
@@ -101,7 +101,7 @@ npm start
 |-----------|----------------|------------|
 | _Add screenshots in a `/screenshots` folder_ | _Add here_ | _Add here_ |
 
-
+---
 
 ## 🧠 Future Enhancements
 
@@ -110,19 +110,19 @@ npm start
 - 📱 Mobile-first design & responsiveness
 - ⚙️ Admin Panel and Content Moderation
 
-
+---
 
 ## 🙌 Contributing
 
 Contributions are welcome! Fork the repo and open a PR.
 
-bash
+```bash
 git checkout -b feature/your-feature
 git commit -m "Add your feature"
 git push origin feature/your-feature
+```
 
-
-
+---
 
 ## 📄 License
 
